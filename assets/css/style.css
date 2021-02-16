@@ -185,8 +185,7 @@ i {
 .work{
     width: 100%;
     background: url("../images/free_psd_01.png");
-
-    margin: 0 auto;
+    
 }
 
 .work__logo{
@@ -200,31 +199,50 @@ i {
 }
 
 .work_info{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    display: grid;
+    justify-content: center;
 
     margin-top: 60px;
 }
 
 .work__panel{
     width: 100%;
-    max-width: 600px;
 
-    display: flex;
-    justify-content: space-around;
 }
 
-.panel__link{
-    color: white;
+.panel{
+    width: 100%;
+    max-width: 900px;
+    margin-bottom: 60px;
+
     font-size: 14px;
-    text-decoration: #7b77c9;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.panel_link{
+    color: white;
+    text-decoration: none;
 }
 
 .all_works{
     width: 100%;
     max-width: 950px;
 
-    height: 100%;
-    max-height: 820px;
+    margin-right: 40px;
+}
+
+.web__design{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.web__content{
+    width: 300px;
+    height: 300px;
+    background-color: #7b77c9;
+
+    color: white;
+
 }
