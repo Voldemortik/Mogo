@@ -290,9 +290,97 @@ i {
     display: flex;
     align-items: center;
     justify-content: center;
+
+    margin-bottom: 85px;
 }
 
 .see_my_work a{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+
+    height: 60px;
+
+    background-color: #7b77c9;
+    border-radius: 5px;
+
+    padding: 0 75px;
+
+    margin-top: 90px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Photography */
+
+.photography{
+    background: url('../images/Фон.png');
+    width: 100%;
+
+}
+
+.photography__header{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.photography__logo{
+    width: 100%;
+
+    text-transform: uppercase;
+    font-size: 80px;
+
+    margin-top: 130px;
+    margin-bottom: 45px;
+    text-align: center;
+}
+
+.photography__text{
+    width: 100%;
+    max-width: 750px;
+
+    font-size: 30px;
+    color: #888a8b;
+
+    text-align: center;
+}
+
+.photography__cont{
+    width: 100%;
+    max-width: 950px;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+.photography__gallery{
+    display: flex;
+    justify-content: space-around;
+}
+
+.photo{
+    width: 300px;
+    height: 300px;
+    background-color: #7b77c9;
+
+    margin-top: 20px;
+}
+
+.see_my_photoblog{
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 85px;
+}
+
+.see_my_photoblog a{
     color: white;
     font-size: 18px;
     text-decoration: none;
