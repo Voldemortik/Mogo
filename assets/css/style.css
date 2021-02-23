@@ -433,6 +433,8 @@ i {
 .email__form{
     width: 100%;
     text-align: center;
+
+    margin-top: 20px;
 }
 
 .form{
@@ -441,5 +443,19 @@ i {
     padding: 10px;
     outline: none;
     border: none;
-    border-radius: 10px;
+    border-radius: 5px;
+}
+
+.accept{
+    width: 100px;
+
+    margin-left: 10px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+
+    text-decoration: none;
+    background-color: #7b77c9;
+    color: white;
 }
