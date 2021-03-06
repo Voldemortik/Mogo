@@ -4,6 +4,27 @@
     <meta charset="utf-8" />
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Mogo</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(document.getElementById(1)).click(function () {
+                $(".web_designs").show();
+                $(".icon_contents").show();
+                $(".landing_pages").show();
+            });
+
+            $(document.getElementById(2)).click(function () {
+                $(".web_designs").hide();
+                $(".icon_contents").hide()
+            });
+
+            $(document.getElementById(3)).click(function () {
+                $(".icon_contents").hide();
+                $(".landing_pages").hide();
+            });
+        }) 
+    </script>
 </head>
 <body>
 
@@ -71,49 +92,63 @@
                 <div class="work_info">
                     <div class="work__panel">
                         <nav class="panel">
-                            <a class="panel_link" href="http://htmlbook.ru/css/hover">All Works</a>
-                            <a class="panel_link" href="#" >Landing Page</a>
-                            <a class="panel_link" href="#" >Web Design</a>
-                            <a class="panel_link" href="#" >Icon Desgin</a>
-                            <a class="panel_link" href="#" >Template</a>
+                            <a class="panel_link" id="1" href="##">All Works</a>
+                            <a class="panel_link" id="2" href="##" >Landing Page</a>
+                            <a class="panel_link" id="3" href="##" >Web Design</a>
+                            <a class="panel_link" id="4" href="##" >Icon Desgin</a>
+                            <a class="panel_link" id="5" href="##" >Template</a>
                         </nav>
                     
                         <div class="all_works">
-                            <div class="web__design">
-                                <div class="web__content"></div>
-                                <div class="web__content"></div>
-                                <div class="web__content"></div>
-                            
-                            </div>  
-
-                            <div class="content__name">
-                                <a href="#"> Positionly gain more traffic</a>
-                                <a href="#"> Flag - User Dashboard</a>
-                                <a href="#"> Doodle Maps - developers</a>
-                            </div>
-                            <div class="content__category">
-                                <a>Web Design</a>
-                                <a>Web Design</a>
-                                <a>Web Design</a>
-                            </div>
-
-                            <div class="icon__design">
-                                <div class="icon__content"></div>
-                                <div class="icon__content"></div>
-                            </div>
-                            <div class="landing__page">
-                                <div class="landing__content"></div>
+                            <div class="web_designs">
+                                <div class="web__design">
+                                    <div class="web__content"></div>
+                                    <div class="web__content"></div>
+                                    <div class="web__content"></div>
+                                
+                                </div>  
+    
+                                <div class="content__name">
+                                    <a href="#"> Positionly gain more traffic</a>
+                                    <a href="#"> Flag - User Dashboard</a>
+                                    <a href="#"> Doodle Maps - developers</a>
+                                </div>
+                                <div class="content__category">
+                                    <a>Web Design</a>
+                                    <a>Web Design</a>
+                                    <a>Web Design</a>
+                                </div>
                             </div>
 
-                            <div class="content__name">
-                                <a href="#"> Flag - User Dashboard</a>
-                                <a href="#" style="margin-right: 20px;"> Mixpanel Career</a>
-                                <a href="#"> Djed Landing Page</a>
+                            <div class="icon_contents">
+                                <div class="icon__design">
+                                    <div class="icon__content"></div>
+                                    <div class="icon__content"></div>
+                                </div>
+
+                                <div class="content__name">
+                                    <a href="#"> Flag - User Dashboard</a>
+                                    <a href="#" style="margin-right: 20px;"> Mixpanel Career</a>
+                                </div>
+
+                                <div class="content__category">
+                                    <a>Icon Design</a>
+                                    <a>Icon Design</a>
+                                </div>
                             </div>
-                            <div class="content__category">
-                                <a>Icon Design</a>
-                                <a>Icon Design</a>
-                                <a>Landing Page</a>
+                    
+                            <div class="landing_pages" id="6">
+                                <div class="landing__page">
+                                    <div class="landing__content"></div>
+                                </div>
+
+                                <div class="content__name">
+                                    <a href="#"> Djed Landing Page</a>
+                                </div>
+
+                                <div class="content__category">
+                                    <a>Landing Page</a>
+                                </div>
                             </div>
 
                         </div>
@@ -173,16 +208,12 @@
         </div>
         <div class="footer">
             <div class="social">
-                <a href="#"><img src="../Mogo/assets/images/Instagram.png" class="socials" height="35px" width="35px"></a>
-                <a href="#"><img src="../Mogo/assets/images/L.png" class="socials" height="28px" width="35px"></a>
-                <a href="#"><img src="../Mogo/assets/images/D.png" class="socials" height="35px" width="35px"></a>
-                <a href="#"><img src="../Mogo/assets/images/E.png" class="socials" height="25px" width="43px"></a>
+                <img src="../Mogo/assets/images/Instagram.png" height="35px" width="35px" class="instagram">
+                <div class="twitter"></div>
+                <div class=""></div>
+                <div class=""></div>
             </div>
-
-            <div class="footer__text">
-                Copyright © 2014. All Rights Reserved.<br>
-                Made With Love By @AirTheme
-            </div>
+            
         </div>
 </body>
 </html>

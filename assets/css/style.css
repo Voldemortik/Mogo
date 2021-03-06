@@ -218,8 +218,7 @@ i {
 }
 
 .all_works{
-    width: 100%;
-    max-width: 950px;
+    width: 950px;
 
     margin-right: 40px;
 }
@@ -257,8 +256,16 @@ i {
     font-size: 14px;
 }
 
+.icon_contents{
+    height: 362px;
+    width: 635px;
+
+    display: grid;
+
+    float: left;
+}
+
 .icon__design{
-    width: 66.7%;
     display: flex;
     justify-content: space-around;
     float: left;
@@ -270,6 +277,12 @@ i {
     width: 300px;
     height: 300px;
     background-color: #7b77c9;
+}
+
+.landing_pages{
+    width: 33%;
+
+    float: right;
 }
 
 .landing__page{
